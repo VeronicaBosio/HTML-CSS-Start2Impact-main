@@ -1,0 +1,148 @@
+/* SELETTORE {
+    proprieta: valore;
+    proprieta: valore;
+} */
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: #F4F1E9;
+}
+
+header{
+    background-image: url("../Images/Image\ Desk.png");
+    background-color: #000000;
+    text-align: center;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: #D96C06;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+main {
+    padding: 30px;
+} 
+
+.container-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+} 
+
+.menu ul li {
+     display: inline;
+     margin: 10px;     
+	 color: #000000;
+} 
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #000000;
+} 
+
+h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-family: "Suez One";
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Suez One";
+}
+
+h3{
+    color: #2E4B2B;
+    font-size: 40px;
+    font-family: "Suez One";
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.container-about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-about-me p {
+    width: 70%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-it-tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.it-tools ul li {
+    display: inline;
+    margin: 20px;
+} 
+
+body{
+    color: #000000;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    min-width: 300px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: Poppins; 
+    font-style: italic;
+    transition: all 0.3s ease;
+    background: #F7CFAC;
+    color: #000000;
+    width: 80%;
+}    
+button[type=submit] {
+    order: none;
+    padding: 12px 25px;
+    font-size: 12px;
+    border-radius: 8px;
+} 
+
+footer{
+    text-align: center;
+}
+
